@@ -1,0 +1,71 @@
+header {
+    width: 100%;
+}
+
+.header {
+    font-family: SUNFLOWER;
+    background-color: #303030;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    padding: 0 6vw 0 6vw; 
+}
+
+.pesquisa-menu{
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.search-box {
+    background: #707070;
+    height: 4.6vh;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    color: black;
+    font-size: 16px;
+    line-height: 10px;
+    width: 39.5vw;
+    padding-left: 20px;
+}
+
+.search-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    /*vai alinhar o item horizontalmente, no caso a lupa*/
+    align-items: center;
+    /*alinha verticalmente*/
+    position: left;
+}
+
+::placeholder {
+    color: #303030;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+}
+#carrinho{
+    height: 5vh;
+    cursor: pointer;
+}
+.menu-btn{
+    width: 3vw;
+    height: 5vh;
+}
