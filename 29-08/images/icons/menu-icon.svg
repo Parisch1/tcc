@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58" height="50" viewBox="0 0 68 60">
+                        <defs>
+                          <filter id="path3785-0" x="0" y="33.777" width="68" height="26.223" filterUnits="userSpaceOnUse">
+                            <feOffset dy="5" input="SourceAlpha"/>
+                            <feGaussianBlur stdDeviation="3" result="blur"/>
+                            <feFlood flood-opacity="0.161"/>
+                            <feComposite operator="in" in2="blur"/>
+                            <feComposite in="SourceGraphic"/>
+                          </filter>
+                          <filter id="path3785-0-9" x="0" y="16.889" width="68" height="26.223" filterUnits="userSpaceOnUse">
+                            <feOffset dy="5" input="SourceAlpha"/>
+                            <feGaussianBlur stdDeviation="3" result="blur-2"/>
+                            <feFlood flood-opacity="0.161"/>
+                            <feComposite operator="in" in2="blur-2"/>
+                            <feComposite in="SourceGraphic"/>
+                          </filter>
+                          <filter id="path3785-0-4" x="0" y="0" width="68" height="26.223" filterUnits="userSpaceOnUse">
+                            <feOffset dy="5" input="SourceAlpha"/>
+                            <feGaussianBlur stdDeviation="3" result="blur-3"/>
+                            <feFlood flood-opacity="0.161"/>
+                            <feComposite operator="in" in2="blur-3"/>
+                            <feComposite in="SourceGraphic"/>
+                          </filter>
+                        </defs>
+                        <g id="Bt_Menu" transform="translate(9 4)">
+                          <g id="g3837" transform="translate(0)">
+                            <g transform="matrix(1, 0, 0, 1, -9, -4)" filter="url(#path3785-0)">
+                              <path id="path3785-0-2" data-name="path3785-0" d="M40.888,1016.245H-.888A4.112,4.112,0,0,1-5,1012.133a4.112,4.112,0,0,1,4.112-4.112H40.888a4.112,4.112,0,1,1,0,8.223Z" transform="translate(14 -970.24)" fill="#606060"/>
+                            </g>
+                            <g transform="matrix(1, 0, 0, 1, -9, -4)" filter="url(#path3785-0-9)">
+                              <path id="path3785-0-9-2" data-name="path3785-0-9" d="M40.888,916.249H-.888A4.112,4.112,0,0,1-5,912.137a4.112,4.112,0,0,1,4.112-4.112H40.888a4.112,4.112,0,1,1,0,8.223Z" transform="translate(14 -887.14)" fill="#606060"/>
+                            </g>
+                            <g transform="matrix(1, 0, 0, 1, -9, -4)" filter="url(#path3785-0-4)">
+                              <path id="path3785-0-4-2" data-name="path3785-0-4" d="M40.888,816.249H-.888A4.112,4.112,0,0,1-5,812.137a4.112,4.112,0,0,1,4.112-4.112H40.888a4.112,4.112,0,0,1,0,8.223Z" transform="translate(14 -804.03)" fill="#606060"/>
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
