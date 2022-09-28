@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color:#231D1B;
+    background-size: cover;
+}
+.header {
+    font-family: LEMONMILK-Light;
+    background-color: #606060;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #CB9C29;
+    display: flex;
+    top: 0;
+    justify-content: flex-start;
+    align-items: center;
+    height: 20vh;
+}
+.txt-carrinho{
+    padding-left: 350px;
+    font-size: 50px;
+    text-decoration: underline;
+}
+.corpo{
+    display: flex;
+    justify-content: left;
+}
+.fundo-lista-itens{
+    margin-top: 72px;
+}
+.painel-lista-itens{
+    display: flex;
+    border-radius: 10px;
+    height: 163px;
+    width: 1025px;
+    background-color: #454545;
+    margin-bottom: 30px;
+    margin-left: 41px;
+}
+.nome-item{
+    font-family: LEMONMILK-Light;
+    font-size: 40px;
+    padding-top: 6px;
+    padding-left: 5px;
+    color: white;
+}
+.preco-unit-item{
+    font-family: LEMONMILK-Light;
+    color: white;
+    font-size: 40px;
+
+}
+.quant-item{
+    font-family: LEMONMILK-Light;
+    color: white;
+    font-size: 40px;
+    padding-left: 5px;
+}
+.img-item{
+    width: 138px;
+    height: 138px;
+    padding-left: 15px;
+    padding-top: 13px;
+}
+#img-item-id{
+    width: 138px;
+    height: 138px;
+    border-radius: 10px;
+}
+.flex-txt-preco{
+    display: flex;
+    flex-flow:column;
+}
+.flex-preco-num{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6px;
+    padding-left: 5px;
+}
+
+.linha-horizontal{
+    height: 889px;
+    float: left;
+    border: 1px #CB9C29 solid;
+    
+}
