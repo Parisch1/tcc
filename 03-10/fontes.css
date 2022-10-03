@@ -1,0 +1,24 @@
+@font-face {
+    font-family: LEMONMILK-Light;
+    src: url(images/fontes/LEMONMILK-Light.otf);
+}
+@font-face {
+    font-family: LEMONMILK-Bold;
+    src: url(images/fontes/LEMONMILK-Bold.otf);
+}
+@font-face{
+    font-family: LEMONMILK-Regular;
+    src: url(images/fontes/LEMONMILK-Regular.otf);
+}
+@font-face {
+    font-family: LEMONMILK-Medium;
+    src: url(images/fontes/LEMONMILK-Medium.otf);
+}
+@font-face {
+    font-family: CocogooseProLight;
+    src: url(images/fontes/CocogooseLight.ttf);
+}
+@font-face {
+    font-family: SUNFLOWER;
+    src: url(images/fontes/SUNFLOWER.otf);
+}

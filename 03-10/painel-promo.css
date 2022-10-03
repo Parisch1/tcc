@@ -1,0 +1,107 @@
+.paineisitens-promo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px; 
+    flex-wrap: wrap;    
+}
+
+.painel-promo{
+    background-image: linear-gradient(#CB9C29, #303030);
+    border-radius: 7px;
+    width: 220px;
+    height: 350px;
+    align-items: center;
+    margin: 30px;
+}
+
+#img-painel-promo{
+    width: 197px;
+    height: 197px;  
+    padding: 13px 13px 10px 12px;
+    border-radius: 20px;
+}
+#textoitens-promo{
+    padding-left: 15px;
+    font-family: LEMONMILK-Regular;
+    color: #fff;
+    font-size: 16px;
+}
+.preco-direito{
+    display: flex;
+    padding-top: 10px;
+    flex-flow: column wrap;
+}
+#svg-x-promo{
+    position: absolute;
+    height: 19px;
+}
+.preco-promo2{
+    position: relative;
+    font-family: LEMONMILK-Regular;
+    color: #A0A0A0;
+    font-size: 13px; 
+}
+.linhabaixo-promo{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    bottom: 0;
+    padding-left: 15px;
+}
+.precos-promo{
+    display: flex;
+    justify-content: left;
+}
+#precoitens1-promo{
+    color: #CB9C29;
+    font-family: LEMONMILK-Medium;
+    font-size: 45px;
+    
+}
+#precoitens2-promo{
+    color: #CB9C29;
+    margin-top: 28px;
+    font-family: LEMONMILK-Medium;
+    font-size: 22px;
+    
+    
+}
+
+.linhapromocao{
+    display: flex;
+    flex-flow: nowrap;
+    padding-top: 4.35vh;
+    padding-left: 2.6vw;
+    padding-right: 2.6vw;
+    
+}
+hr{
+    border-top: 2px solid #CB9C29;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    
+}
+.hr-1{
+    width: 39.2vw;
+    float: left;
+}
+.hr-2{
+    width: 39.2vw;
+    float: right;
+}
+.linha-promo{
+    font-family: LEMONMILK-Regular;
+    font-size: 2.2vh;
+    color: #CB9C29;
+    text-align: center;
+}
+.hr-hr-final{
+    border-bottom: solid 2px #CB9C29;
+    border-bottom: #CB9C29;
+    width: 94.7vw;
+}
+.hr-final{
+    padding-top: 4.35vh;
+}
