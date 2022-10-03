@@ -1,0 +1,19 @@
+.spacefooter{
+    padding-top: 80px;
+}
+.footer{
+    display: flex;
+    padding-top: 10px;
+    background-color: #CB9C27;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+.logorodape{
+    padding-bottom: 36px;
+}
+.txt-rodape{
+    font-family: SUNFLOWER;
+    color: #303030;
+    font-size: 18px;
+}
