@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color:#231D1B;
+    background-size: cover;
+}
+.header {
+    font-family: LEMONMILK-Light;
+    background-color: #606060;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #CB9C29;
+    display: flex;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+.txt-carrinho{
+    font-size: 50px;
+    text-decoration: underline;
+}
+#logo-acougue{
+    position: absolute;
+    left: 0;
+}
+.corpo{
+    display: flex;
+}
+.fundo-lista-itens{
+    margin-top: 72px;
+}
+.painel-lista-itens{
+    display: flex;
+    border-radius: 10px;
+    height: 163px;
+    width: 1025px;
+    background-color: #454545;
+    margin-bottom: 30px;
+    margin-left: 41px;
+}
+.nome-item{
+    font-family: LEMONMILK-Light;
+    font-size: 40px;
+    padding-top: 6px;
+    padding-left: 5px;
+    color: white;
+}
+.preco-unit-item{
+    font-family: LEMONMILK-Light;
+    color: white;
+    font-size: 40px;
+
+}
+.quant-item{
+    font-family: LEMONMILK-Light;
+    color: white;
+    font-size: 40px;
+    padding-left: 5px;
+}
+.img-item{
+    width: 138px;
+    height: 138px;
+    padding-left: 15px;
+    padding-top: 13px;
+}
+#img-item-id{
+    width: 138px;
+    height: 138px;
+    border-radius: 10px;
+}
+.flex-txt-preco{
+    display: flex;
+    flex-flow:column;
+}
+.flex-preco-num{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6px;
+    padding-left: 5px;
+}
+
+.linha-vertical{
+    height: 100%;
+    background-color: #CB9C29;
+    position: absolute;
+    width: 2px;
+    border: none;
+    top: 0;
+    right: 30vw;
+    margin-top: 25vh;
+}
+.linha-vertical::after
+.total{
+    margin-top: 75px;
+    margin-left: 5vw;
+}
+.total-txt{
+    font-family: LEMONMILK-Light;
+    font-size: 35px;
+    color: #dedede;
+    margin-left: 2vw;
+}
+.itens-total{
+    display: grid;
+    width: min-content;
+    grid-template-columns: repeat(2, 200px);
+    float: center;
+    font-size: 25px;
+    color: #dedede;
+    font-family: LEMONMILK-Light;
+    margin-top: 20px;
+}
+#icon-mais{
+    width: 25px;
+    height: 25px;
+}
+.icon-mais-svg{
+    width: 0;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.total-txt-preco{
+    font-family: LEMONMILK-Light;
+    font-size: 30px;
+    color: #dedede;
+}
+
+.linha-total{
+    width:20vw;
+}
+
+
+
+/*mais e menos bagulho sla*/
+.input-num-itens{
+    position: relative;
+    margin-top: 5vh;
+}
+input[type="number"] {
+    -webkit-appearance: textfield;
+       -moz-appearance: textfield;
+            appearance: textfield;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+}
+input[type="number"]{
+    outline:none;
+    border: 1.5px solid #707070;
+    height: 30px;
+    width: 90px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: LEMONMILK-Light;
+}
+label, input, button {
+    font-size: inherit;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+button{
+  height:30px;
+  border: 1.5px solid #707070;
+  background-color: white;
+  outline:none;
+  cursor: pointer;
+}
+button.a-menos{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #707070;
+    border-radius: 10px 0px 0px 10px;
+}
+button.b-mais{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #707070;
+    border-radius: 0px 10px 10px 0px;
+}
